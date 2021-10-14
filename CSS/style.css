@@ -1,0 +1,45 @@
+body {
+    height: 1000vh;
+}
+
+.head-container {
+    height: 300px;
+    width: 100%;
+
+    position: absolute;
+}
+
+.img-top {
+    height: 300px;
+    width: 100%;
+    background-color: lightgreen;
+
+}
+
+.skater1-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas:
+        "i i i"
+        "i i i"
+        "t t t"
+        "t t t"
+        "v v v"
+        "v v v";
+
+}
+
+.img1 {
+    grid-area: i;
+
+
+}
+
+.text1 {
+    grid-area: t;
+}
+
+.vid1{
+    grid-area: v;
+}
